@@ -1,0 +1,95 @@
+.all{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px 48px;
+    gap: 48px;
+    
+    position: absolute;
+    width: 260px;
+    height: 1161px;
+    left: 0px;
+    top: 0px;
+    
+   
+    
+    background: #18181B;
+
+
+
+}
+
+
+.logo{
+
+    width: 60px;
+    height: 44px;
+    
+}
+
+
+.ana{
+
+
+    
+    
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 33px;
+    top: 150px;
+    
+
+
+
+}
+
+
+.ana1{
+
+    position: absolute;
+width: 172px;
+height: 16px;
+left: 57px;
+top: 150px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+
+
+letter-spacing: -0.015em;
+
+
+
+color: #FFFFFF;
+
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 196px;
+height: 16px;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+
+
+
+
+
+
+}

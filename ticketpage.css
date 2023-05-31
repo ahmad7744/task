@@ -290,7 +290,38 @@
     /* background-color: #000000; */
     width: 100%;
   }
+
+
+  .list-all{
+
+    display: flex;
+    width: 100%;
+  }
+  body{
+    margin:0;
+    padding:0;
+  }
+  .btn-all{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: red;
+  }
+
+  .btn-1{
+    display: flex;
+    align-items:center;
+    align-content: center;
+    background-color: #000000;
+    width: 250px;
+    color: white;
+    padding: 80px;
+
+  }
+
+  
   .all-1{
+    width: 100%;
     color: #000000;
     justify-content: flex-start;
     display: flex;
@@ -300,9 +331,42 @@
     padding: 20px;
     gap: 32px;
     background-color: #FAFAFA;
-    border bottom: ;: 1px solid #D4D4D8
+
    
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e7e7e7;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
+  li a.active {
+    color: black;
+   border-bottom: 2px solid black;
+  }
+
+  
   .search-foam{
 
     display: flex;
@@ -342,8 +406,10 @@ align-items: flex-start;
 padding: 8px;
 gap: 24px;
 
-width: 1124px;
-height: 709px;
+width: 100%;
+max-width:1124px;
+
+/* height: 709px; */
 
 /* White */
 
@@ -384,7 +450,7 @@ padding: 8px 16px;
     background: #FED7AA;
 border-radius: 31px;
 padding: 8px 16px;
-width: 84px;
+max-width: 84px;
 height: 28px;
 
 
@@ -392,12 +458,89 @@ height: 28px;
 .yellow{
     background: #FDE68A;
 border-radius: 31px;
-width: 98px;
+max-width: 98px;
 height: 28px;
 padding: 8px 16px;
 
 }
 
+.green{
+  max-width: 95px;
+height: 28px;
+
+/* Emerald 200 */
+
+background: #A7F3D0;
+border-radius: 31px;
+padding: 8px 16px;
+}
+
+.green-1{
+  width: 95px;
+height: 28px;
+
+/* Teal 200 */
+
+background: #99F6E4;
+border-radius: 31px;
+padding: 8px 16px;
+}
+
+.blue-1{
+  width: 98px;
+height: 28px;
+
+/* Cyan 200 */
+
+background: #A5F3FC;
+border-radius: 31px;
+padding: 8px 16px;
+
+}
+
+.blue-2{
+  width: 95px;
+height: 28px;
+
+/* Sky 200 */
+
+background: #BAE6FD;
+border-radius: 31px;
+padding: 8px 16px;
+}
+
+.purple{
+  width: 95px;
+height: 28px;
+
+/* Indigo 200 */
+
+background: #C7D2FE;
+border-radius: 31px;
+padding: 8px 16px;
+}
+
+.green-2{
+
+  width: 84px;
+height: 28px;
+
+/* Lime 200 */
+
+background: #D9F99D;
+border-radius: 31px;
+padding: 8px 16px;
+}
+.purple-2{
+  width: 95px;
+height: 28px;
+
+/* Violet 200 */
+
+background: #DDD6FE;
+border-radius: 31px;
+padding: 8px 16px;
+}
   .tr-1{
     border: 1px solid black;
 
